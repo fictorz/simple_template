@@ -10,7 +10,7 @@ public:
   explicit ExampleClass();
   ~ExampleClass() = default;
 
-  uint8_t bitwiseAnd(const uint8_t &leftOperand, const uint8_t &rightOperand);
+  static uint8_t bitwiseAnd(const uint8_t &leftOperand, const uint8_t &rightOperand);
 };
 
 } // namespace example::submodule
